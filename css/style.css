@@ -1,0 +1,287 @@
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+body{
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+.header-section{
+	width: 110%;
+	float: left;
+	padding: 20px 0;
+}
+.banner{
+	width: 100%;
+	float: left;
+	padding:105px 0px;
+	background:url(../img/bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.banner-main{
+	width: 60%;
+    margin: 0 auto;
+    padding: 25px 0px;
+    text-align: center;
+}
+.banner-main h1{
+    font-size: 100px;
+    color: white;
+}
+.banner-main span{
+	border-bottom: 2px solid #15a4fa;
+    display: block;
+    margin: 10px auto;
+}
+.banner-main p {
+	font-size: 20px;
+    color: white;
+    letter-spacing: 2px;
+    padding: 18px 0px;
+    display: block;
+}
+.btn{
+	background-color: transparent;
+    padding: 11px 30px;
+    border: 2px solid #15a4fa;
+    margin: 22px;
+    color: white;
+    font-size: 16px;
+}
+.btn:hover{
+	background:#15a4fa; 
+}
+.down{
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-size: 17px;
+}
+
+.fa.fa-chevron-down {
+    margin: 10px;
+    color: white;
+}
+
+
+.description-section{
+	width: 100%;
+	float: left;
+	padding: 50px 0;
+	background: #f6f9f9;
+	text-align: center;
+}
+.description-section h2{
+	font-size: 35px;
+	margin-bottom: 30px;
+	margin-top: 0;
+
+}
+.description-section p{
+	width: 70%;
+	margin-left: 15%;
+}
+
+/*service section css*/
+.service-section{
+	width: 100%;
+	float: left;
+	padding: 70px 0;
+	text-align: center;
+}
+.service-section i{
+	color: white;
+	background:#15a4fa;
+	padding: 20px;
+	display: inline-block;
+	font-size: 50px;
+	height: 50px;
+	width: 50px;
+	text-align: center;
+
+}
+.single-service-item{
+	width: 31%;
+	float: left;
+	margin-right: 2%;
+}
+.single-service-item h4{
+	font-size: 25px;
+	margin-bottom: 5px;
+}
+
+/*portfolio section css*/
+.portfolio-section{
+	width: 100%;
+	float: left;
+	padding: 60px 0;
+	background: #f6f9f9;
+}
+.portfolio-header{
+	text-align: center;
+	margin-bottom: 40px;
+}
+.portfolio-header h2{
+	font-size: 40px;
+	margin-bottom: 0;
+	text-transform: capitalize;
+}
+.portfolio-header p{
+	font-size: 18px;
+	margin-top: 5px;
+
+}
+.portfolio-gallery{
+	
+	margin: 40px auto;
+	width: 80%;
+}
+.single-portfolio{
+	width: 284px;
+	display: block;
+	float: left;
+	margin:10px;
+	position: relative;
+}
+.overlay{
+	position: absolute;
+	background:#15a4fa;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 0;
+	opacity: .5;
+	transition: .8s;
+}
+.single-portfolio:hover .overlay{
+	width: 100%;
+}
+.single-portfolio img{
+	width: 100%;
+	height: auto;
+}
+/*contact section css*/
+.contact-section{
+	width: 100%;
+	float: left;
+	background:linear-gradient(#2b364b,#2b364b82),url(../img/bottom.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top:70px;
+	padding-bottom: 100px;
+	text-align: center;
+	color: white;
+}
+.form-header{
+	margin-bottom: 50px;
+}
+.form-header h2{
+	font-size: 35px;
+	text-transform: capitalize;
+	margin: 0;
+}
+.form-header p{
+	margin-top: 5px;
+
+}
+.form-section{
+	width: 50%;
+	margin: auto;
+}
+.form-section input[type='text'],
+.form-section input[type='email']{
+	width: 100%;
+	padding: 15px 13px;
+	border-radius: 2px;
+	margin-bottom: 10px;
+	border: none;
+	background: transparent;
+	color: white;
+	border: 1px solid white;
+}
+.form-section textarea{
+	width: 100%;
+	padding: 13px;
+	border-radius: 2px;
+	border: none;
+	background: transparent;
+	border: 1px solid white;
+	color: white;
+}
+/*footer section css*/
+.footer-section{
+	width: 100%;
+	float: left;
+}
+.footer-left{
+	width: 75%;
+	float: left;
+}
+.footer-left p{
+	margin-top:30px;
+}
+.footer-right{
+	width: 25%;
+	float: right;
+}
+.footer-right ul{
+	list-style: none;
+}
+.footer-right ul li{
+	display: inline-block;
+	margin: 5px ;
+
+}
+.footer-right ul li a{
+	text-decoration: none;
+	color: white;
+	background:#15a4fa;
+	display: inline-block;
+}
+.footer-right ul li a i{
+	font-size: 15px;
+	height: 15px;
+	width: 15px;
+	padding: 10px;
+	border: 1px solid #15a4fa;
+	text-align: center;
+	transition: .8s;
+}
+.footer-right ul li a:hover i{
+	color:#15a4fa;
+	background: white;
+	border: 1px solid #15a4fa;
+
+}
+.form-bottom{
+	margin-top: 10px;
+}
+.bottom-left{
+	width: 30%;
+	float: left;
+}
+.bottom-right{
+	width:14%;
+	float: right;
+}
+.send{
+	color: white;
+	display: inline-block;
+	padding: 10px 40px;
+	background:#15a4fa;
+	border: none;
+	border-radius: 4px;
+	transition: .9s;
+	border: 1px solid #15a4fa;
+}
+.send:hover{
+	color:#15a4fa;
+	border: 1px solid #15a4fa;
+	background: white; 
+}
+.bottom-left input[type='checkbox']{
+	margin-left: 0;
+}
